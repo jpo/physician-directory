@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Family Practice"
+  },
+  {
+    "id": 2,
+    "name": "Urgent Care"
+  },
+  {
+    "id": 3,
+    "name": "Emergency Medicine"
+  },
+  {
+    "id": 4,
+    "name": "Internal Medicine"
+  },
+  {
+    "id": 5,
+    "name": "Sports Medicine"
+  }
+]

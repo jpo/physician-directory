@@ -1,0 +1,28 @@
+<ion-view title="type | capitalize">
+  <ion-content has-header="true">
+    <div class="list" ng-show="type == 'locations'">
+      <a class="item"
+         ng-repeat="item in items | orderBy:'+distance'"
+         ng-href="#/physicians/locations/{{item.id}}">
+        {{item.city}}, {{item.abbrev}}
+        <span class="badge badge-positive">
+          {{item.distance.toFixed(2)}} Miles
+        </span>
+      </a>
+    </div>
+    <div class="list" ng-show="type == 'specialties'">
+      <a class="item"
+         ng-repeat="item in items | orderBy:'name'"
+         ng-href="#/physicians/specialties/{{item.id}}">
+        {{item.name}}
+      </a>
+    </div>
+    <div class="list" ng-show="type == 'insurances'">
+      <a class="item"
+         ng-repeat="item in items | orderBy:'name'"
+         ng-href="#/physicians/insurances/{{item.id}}">
+        {{item.name}}
+      </a>
+    </div>
+  </ion-content>
+</ion-view>

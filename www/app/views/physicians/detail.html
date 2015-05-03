@@ -1,0 +1,46 @@
+<ion-view title="'Physician'">
+  <ion-content has-header="true">
+    <div class="list card">
+      <div class="item item-thumbnail-left">
+        <img src="http://placehold.it/80x80"/>
+        <h2>{{physician.first_name}} {{physician.last_name}}, {{physician.suffix}}</h2>
+        <p>{{physician.location.city}}, {{physician.location.state}}</p>
+      </div>
+      <div class="item item-divider">
+        Address
+      </div>
+      <div class="item item-body">
+        <div>{{physician.location.name}}</div>
+        <div>{{physician.location.street}}</div>
+        <div>{{physician.location.city}}, {{physician.location.state}}</div>
+      </div>
+      <div class="item item-divider" ng-show="physician.specialties.length">
+        Specialties
+      </div>
+      <div class="item item-body" ng-show="physician.specialties.length">
+        <ul>
+          <li ng-repeat="specialty in physician.specialties">
+              {{specialty.name}}
+          </li>
+        </ul>
+      </div>
+      <div class="item item-divider" ng-show="physician.insurances.length">
+        Insurances
+      </div>
+      <div class="item item-body" ng-show="physician.insurances.length">
+        <ul>
+          <li ng-repeat="insurance in physician.insurances">
+            {{insurance.name}}
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="button-bar padding">
+      <a class="button button-positive" ng-href="tel:{{physician.location.phone}}">
+        <i class="icon ion-ios7-telephone"></i>
+        Call Office
+      </a>
+    </div>
+  </ion-content>
+</ion-view>

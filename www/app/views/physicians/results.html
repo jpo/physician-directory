@@ -1,0 +1,13 @@
+<ion-view title="'Physicians'">
+  <ion-content has-header="true" overflow-scroll="true">
+    <div class="list">
+      <a class="item item-avatar"
+         ng-repeat="physician in physicians"
+         ng-href="#/physicians/{{physician.id}}">
+        <img src="http://placehold.it/40x40" />
+        <h2>{{physician.first_name}} {{physician.last_name}}, {{physician.suffix}}</h2>
+        <p>{{physician.location.city}}, {{physician.location.state}}</p>
+      </a>
+    </div>
+  </ion-content>
+</ion-view>

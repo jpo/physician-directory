@@ -1,0 +1,11 @@
+<ion-view title="'Urgent Care'">
+  <ion-content has-header="true" has-tabs="true">
+    <div class="list">
+      <a class="item item-avatar" href="#/locations/{{location.id}}" ng-repeat="location in locations">
+        <img src="http://placehold.it/40x40"/>
+        <h2>{{location.name}}</h2>
+        <p>{{location.city}}, {{location.abbrev}}</p>
+      </a>
+    </div>
+  </ion-content>
+</ion-view>

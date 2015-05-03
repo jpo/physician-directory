@@ -1,0 +1,198 @@
+[
+  {
+    "id": 1,
+    "first_name": "John",
+    "last_name": "Doe",
+    "suffix": "M.D.",
+    "gender": "Male",
+    "location": {
+      "id": 1,
+      "type": "Urgent Care",
+      "name": "Frankfort Urgent Care",
+      "street": "123 Main Street",
+      "abbrev":"KY",
+      "state":"Kentucky",
+      "city":"Frankfort",
+      "lat":38.195070,
+      "lon":-84.878694,
+      "phone": "(999) 999-9999",
+      "fax": "(999) 999-9999"
+    },
+    "specialties": [
+      {
+        "id": 1,
+        "name": "Family Practice"
+      }
+    ],
+    "insurances": [
+      {
+        "id": 1,
+        "name": "Medicaid"
+      },
+      {
+        "id": 2,
+        "name": "Medicare"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "first_name": "Jane",
+    "last_name": "Doe",
+    "suffix": "M.D.",
+    "gender": "Female",
+    "location": {
+      "id": 2,
+      "type": "Urgent Care",
+      "name": "Columbus Urgent Care",
+      "street": "123 Main Street",
+      "abbrev":"OH",
+      "state":"Ohio",
+      "city":"Columbus",
+      "lat":39.961960,
+      "lon":-83.002984,
+      "phone": "(999) 999-9999",
+      "fax": "(999) 999-9999"
+    },
+    "specialties": [
+      {
+        "id": 2,
+        "name": "Urgent Care"
+      }
+    ],
+    "insurances": [
+      {
+        "id": 1,
+        "name": "Medicaid"
+      },
+      {
+        "id": 2,
+        "name": "Medicare"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "first_name": "John",
+    "last_name": "Smith",
+    "suffix": "M.D.",
+    "gender": "Male",
+    "location": {
+      "id": 3,
+      "type": "Hospital",
+      "name": "Harrisburg Hospital",
+      "street": "123 Main Street",
+      "abbrev":"PA",
+      "state":"Pennsylvania",
+      "city":"Harrisburg",
+      "lat":40.259865,
+      "lon":-76.882230,
+      "phone": "(999) 999-9999",
+      "fax": "(999) 999-9999"
+    },
+    "specialties": [
+      {
+        "id": 3,
+        "name": "Emergency Medicine"
+      }
+    ],
+    "insurances": [
+      {
+        "id": 1,
+        "name": "Medicaid"
+      },
+      {
+        "id": 2,
+        "name": "Medicare"
+      },
+      {
+        "id": 3,
+        "name": "Private Insurance"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "first_name": "Jane",
+    "last_name": "Smith",
+    "suffix": "M.D.",
+    "gender": "Female",
+    "location": {
+      "id": 4,
+      "type": "Hospital",
+      "name": "Nashville Hospital",
+      "street": "123 Main Street",
+      "abbrev":"TN",
+      "state":"Tennessee",
+      "city":"Nashville",
+      "lat":36.167783,
+      "lon":-86.778365,
+      "phone": "(999) 999-9999",
+      "fax": "(999) 999-9999"
+    },
+    "specialties": [
+      {
+        "id": 4,
+        "name": "Internal Medicine"
+      }
+    ],
+    "insurances": [
+      {
+        "id": 1,
+        "name": "Medicaid"
+      },
+      {
+        "id": 2,
+        "name": "Medicare"
+      },
+      {
+        "id": 3,
+        "name": "Private Insurance"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "first_name": "Jack",
+    "last_name": "Smith",
+    "suffix": "M.D.",
+    "gender": "Male",
+    "location": {
+      "id": 5,
+      "type": "Physician Office",
+      "name": "Charleston Medical Office",
+      "street": "123 Main Street",
+      "abbrev":"WV",
+      "state":"West Virginia",
+      "city":"Charleston",
+      "lat":38.350195,
+      "lon":-81.638989,
+      "phone": "(999) 999-9999",
+      "fax": "(999) 999-9999"
+    },
+    "specialties": [
+      {
+        "id": 5,
+        "name": "Sports Medicine"
+      }
+    ],
+    "insurances": [
+      {
+        "id": 1,
+        "name": "Medicaid"
+      },
+      {
+        "id": 2,
+        "name": "Medicare"
+      },
+      {
+        "id": 3,
+        "name": "Private Insurance"
+      },
+      {
+        "id": 4,
+        "name": "Self-Pay"
+      }
+    ]
+  }
+]

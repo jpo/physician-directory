@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Medicaid"
+  },
+  {
+    "id": 2,
+    "name": "Medicare"
+  },
+  {
+    "id": 3,
+    "name": "Private Insurance"
+  },
+  {
+    "id": 4,
+    "name": "Self-Pay"
+  }
+]

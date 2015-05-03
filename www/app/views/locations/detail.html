@@ -1,0 +1,36 @@
+<ion-view title="'Urgent Care'">
+  <ion-nav-buttons>
+    <button>Home</button>
+  </ion-nav-buttons>
+  <ion-content has-header="true" has-tabs="true">
+    <div class="list card">
+      <div class="item item-divider">
+        <b>Wait Time</b>
+        <span class="badge badge-positive">{{location.waitTime}} min</span>
+      </div>
+      <div class="item item-thumbnail-left">
+        <img src="http://placehold.it/80x80"/>
+        <h2>{{location.name}}</h2>
+        <div>{{location.street}}</div>
+        <div>{{location.city}}, {{location.abbrev}}</div>
+      </div>
+      <div class="item item-divider">
+        Hours
+      </div>
+      <div class="item item-body">
+        <div><b>Weekdays:</b> {{location.hours.weekdays}}</div>
+        <div><b>Weekends:</b> {{location.hours.weekends}}</div>
+      </div>
+    </div>
+    <div class="button-bar padding">
+      <a class="button button-positive" ng-href="tel:{{location.phone}}">
+        <i class="icon ion-ios7-telephone"></i>
+        Call
+      </a>
+      <a class="button" href="http://maps.google.com/maps?saddr=current+location&daddr={{location.street}} {{location.city}} {{location.abbrev}}">
+        <i class="icon ion-map"></i>
+        Directions
+      </a>
+    </div>
+  </ion-content>
+</ion-view>
